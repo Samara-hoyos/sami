@@ -1,0 +1,54 @@
+body{
+  text-align: center;
+}
+.row{
+  width: 80%;
+  margin: 0em auto;
+}
+.col{
+  width: 20%;
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0em 0.5em;
+}
+.col1{
+  width: 30%;
+  display: inline-block;
+}
+.img{
+  width: 100%;
+  display: inline-block;
+}
+
+/*pantalla tableta*/
+@media screen and (min-width:600px) and (max-width:901px){
+  body{
+    .col{
+      width: 40%;
+    }
+    .col1{
+      width: 40%;
+    }
+    .img{
+      width: 100%;
+    }
+  }
+}
+
+.fa-github{
+  font-size: 5em;
+  color: rgb(255, 196, 0);
+}
+
+/*pantalla moviles*/
+@media screen and (max-width:601px){
+  .col{
+    width: 90%;
+  }
+  .col1{
+    width: 90%;
+  }
+  
+}
+
+
